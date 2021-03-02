@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>Entry Form</title>
+<style>
+	.bg
+     {
+  
+  background-image: url("banner.jpg");
+   height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    }
+  table
+  {
+	border-spacing: 20px;
+    border: 10px
+   }
+   tr
+   {
+	height:45px;
+   }
+	
+  </style>
+</head>
+<body class="bg">
+	<h2 align="center" style="color: blue">ENTRY FORM</h2>
+<table align="center">
+<input type="hidden" name="hide" value="h">
+<tr><td>Fullname</td>
+    <td><input type="text" name="name"></td></tr>
+<tr><td>Permanant Address</td>
+	<td><textarea name="addr"></textarea></td></tr>
+<tr><td>Pincode</td>
+	<td><input type="text" name="pin"></td></tr>
+<tr><td>Place</td>
+	<td><input type="text" name="place"></td></tr>
+<tr><td>District</td>
+	<td><select name="district">
+<option>--Select--</option>
+<option value="trivandrum">TRIVANDRUM</option>
+<option value="kollam">KOLLAM</option>
+<option value="pathanamthitta">PATHANAMTHITTA</option>
+<option value="alappuzha">ALAPPUZHA</option>
+<option value="kottayam">KOTTAYAM</option>
+<option value="idukki">IDUKKI</option>
+<option value="ernakulam">ERNAKULAM</option>
+<option value="thrissur">THRISSUR</option>
+<option value="palakkad">PALAKKAD</option>
+<option value="malappuram">MALAPPURAM</option>
+<option value="kozhikode">KOZHIKODE</option>
+<option value="wayanad">WAYANAD</option>
+<option value="kannur">KANNUR</option>
+<option value="kasaragod">KASARAGOD</option>
+</select></td></tr>
+<tr><td>Gender</td>
+	<td><input type="radio" name="gender" value="male">Male &nbsp
+<input type="radio" name="gender" value="female">Female &nbsp
+<tr><td>DOB</td>
+	<td><input type="date" name="dob"></td></tr>
+<tr><td>Contactnumber</td>
+	<td><input type="text" name="number"></td></tr>
+<tr><td></td>
+	<td><input type="submit" value="REGISTER"></td></tr>
+
+</table>
+
+</body>
+</html>
